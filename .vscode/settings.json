@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "math.h": "c"
+    }
+    "files.exclude": {
+        // 默认会隐藏 .git 文件夹
+        "**/.git": true, 
+        
+        // ** 匹配任意目录和子目录
+        // *.exe 匹配所有以 .exe 结尾的文件
+        "**/*.exe": true, 
+
+        // 也可以隐藏 VS Code 内部生成的 .vscode 文件夹里的所有 .exe 文件
+        "**/.vscode/*.exe": true 
     }
 }
