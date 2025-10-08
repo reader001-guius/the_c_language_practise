@@ -17,6 +17,6 @@ for(int i=1;i<=10;i++){
     else{
         other++;}
     }
-    printf("letter = %d, blank = %d, digit =  %d, other=%d",letter,blank,digit,other);
+    printf("letter = %d, blank = %d, digit =  %d, other = %d",letter,blank,digit,other);
     return 0;
 }
