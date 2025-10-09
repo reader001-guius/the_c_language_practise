@@ -1,7 +1,7 @@
 // This code is to query the price of the fruits.
 #include <stdio.h>
 int main(){
-    printf("[1] apple\n[2] pear\n[3] orange\n[4] grape\n[0] exit");
+    printf("[1] apple\n[2] pear\n[3] orange\n[4] grape\n[0] exit\n");
     int input;
     for(int i=1;i<=5;i++){
         scanf("%d",&input);
@@ -20,7 +20,6 @@ int main(){
                 break;  
             case 0:
                 return 0;
-                break;
             default:
                 printf("price = 0.00\n");
         }
