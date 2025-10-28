@@ -51,8 +51,9 @@ int main(){
     if(Students[k].score[0]==score_c_max){
         printf("%s %d %d %.2lf %d %d\n",Students[k].name,Students[k].gender,Students[k].birth_year,Students[k].height,Students[k].score[0],Students[k].score[1]);
     }}
+    printf("C_min:%d\n",score_c_min);
     printf("Calculus_average:%d\nCalculus_max:%d\n",average_calculus,score_calculus_max);
-    printf("C_min:%d",score_c_min);
+    
     for(k=0;k<n;k++){
     if(Students[k].score[1]==score_calculus_max){
         printf("%s %d %d %.2lf %d %d\n",Students[k].name,Students[k].gender,Students[k].birth_year,Students[k].height,Students[k].score[0],Students[k].score[1]);
