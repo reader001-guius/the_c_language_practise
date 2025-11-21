@@ -2,7 +2,8 @@
     "files.associations": {
         "stdio.h": "c",
         "math.h": "c",
-        "windows.h": "c"
+        "windows.h": "c",
+        "string.h": "c"
     },
     
     "files.exclude": {
