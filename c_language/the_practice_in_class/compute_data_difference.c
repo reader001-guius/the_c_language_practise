@@ -9,10 +9,10 @@ int main(){
     struct Date data1,data2;
     scanf("%d %d %d",&data1.year,&data1.month,&data1.day);
     scanf("%d %d %d",&data2.year,&data2.month,&data2.day);
-    int num_runyear1=data1.year/4-data1.year/100+data1.year/400;
-    int num_runyeaer2=data2.year/4-data2.year/100+data2.year/400;
-    total1+=data1.year*365+num_runyear1;
-    total2+=data2.year*365+num_runyeaer2;
+    int num_runyear1=(data1.year-1)/4-(data1.year-1)/100+(data1.year-1)/400;
+    int num_runyeaer2=(data2.year-1)/4-(data2.year-1)/100+(data2.year-1)/400;
+    total1+=(data1.year-1)*365+num_runyear1;
+    total2+=(data2.year-1)*365+num_runyeaer2;
     int months[12]={31,28,31,30,31,30,31,31,30,31,30,31};
     for(int i=0;i<data1.month-1;i++){
         total1+=months[i];

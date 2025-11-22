@@ -6,11 +6,18 @@ int main(){
     int i=0;
     while(n>arr[i]){
         i++;
+        if(i==10){
+            break;
+        }
     }
-    for(int f=10;f>=i;f--){
+    if(i==10){
+        arr[10]=n;
+    }
+    else{
+    for(int f=9;f>=i;f--){
         arr[f+1]=arr[f];
 }
-    arr[i]=n;
+    arr[i]=n;}
     for(int j=0;j<11;j++){
         printf("%d ",arr[j]);
     }
