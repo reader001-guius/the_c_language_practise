@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     int n;
+    freopen("scpi.in","r",stdin);
     scanf("%d",&n);
     int sum=0;
     int cir=1;
@@ -19,6 +20,7 @@ int main(){
     sum=0;
     }
 }
+freopen("scpi.out","w",stdout);
 if(whether==1){
     printf("%d=",n);
     int j;
