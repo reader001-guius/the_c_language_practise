@@ -12,5 +12,6 @@
         
         // 默认保留 .git 规则
         "**/.git": true
-    }
+    },
+    "npm.fetchOnlinePackageInfo": false
 }
